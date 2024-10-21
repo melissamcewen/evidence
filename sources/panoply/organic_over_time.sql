@@ -11,4 +11,4 @@ SELECT
 FROM
   mmap.organic_by_month
 ORDER BY
-  date_column ASC;
+  date_column DESC;

@@ -9,6 +9,6 @@ SELECT
   ) AS date_column,
   views
 FROM
-  mmap.organic_by_month
+  `${client_id}.organic_by_month`
 ORDER BY
   date_column DESC;

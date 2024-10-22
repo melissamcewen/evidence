@@ -1,6 +1,4 @@
-SELECT
-  `mmap.organic_by_month`.`year` AS `year`,
-  `mmap.organic_by_month`.`Month` AS `Month`,
-  `mmap.organic_by_month`.`views` AS `views`
-FROM
-  `mmap.organic_by_month`
+SELECT `${client_id}.organic_by_month`.`year` AS `year`,
+  `${client_id}.organic_by_month`.`Month` AS `Month`,
+  `${client_id}.organic_by_month`.`views` AS `views`
+FROM `${client_id}.organic_by_month`

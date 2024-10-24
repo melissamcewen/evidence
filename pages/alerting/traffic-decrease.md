@@ -14,6 +14,7 @@ WHERE
     name=floor
     defaultValue=10
     step=10
+    max=500
 />
 
 <DataTable data={traffic_decrease} compact=true>

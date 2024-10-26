@@ -27,7 +27,7 @@ averages AS (
   GROUP BY query,
     page,
     period
-  HAVING avg_clicks >= 10 -- Filter out queries with low average impressions
+  HAVING avg_clicks >= 1 -- Filter out queries with low average impressions
 )
 SELECT a.query,
   a.page,

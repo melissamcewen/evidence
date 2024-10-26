@@ -13,6 +13,7 @@ This utilizes GA4 data to calculate the average *organic* traffic:
 - The current month
 - Decrease between the two
 
+The slider allows you to select the minimum floor for the older traffic 
 
 <Slider
     title="Traffic Floor"

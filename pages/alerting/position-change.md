@@ -11,5 +11,5 @@ This looks in the Google Search Console data to calculate the average 6-month an
    <Column id=query wrap=true />
    <Column id=page wrap=true />
    <Column id=avg_position_past_six_months />
-   <Column id=position_percentage_change contentType=colorscale scaleColor=red/>
+   <Column id=position_percentage_change contentType=colorscale scaleColor={['#ce5050','white','#6db678']} colorMid=0 />
 </DataTable>

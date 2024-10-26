@@ -1,6 +1,4 @@
-# Alerting
-
-Potential issues
+# Traffic Decreases
 
 ```traffic_decrease
 select * from panoply.traffic_decrease
@@ -8,6 +6,13 @@ WHERE
   older > ${inputs.floor}
   AND (older - most_recent) / older * 100 >= 45;
 ```
+
+This utilizes GA4 data to calculate the average *organic* traffic:
+
+- In the past six months excluding current month
+- The current month
+- Decrease between the two
+
 
 <Slider
     title="Traffic Floor"
